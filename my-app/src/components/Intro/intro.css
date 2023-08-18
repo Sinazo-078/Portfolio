@@ -1,0 +1,99 @@
+#intro {
+    height: calc(100vh -4rem);
+    width:100vw;
+    max-width:40rem;
+    overflow:hiidden;
+    margin:0 auto;
+    position:relative;
+    max-width: 75 rem;
+    justify-content: space-between;
+
+
+}
+/*
+.bg {
+    position: absolute;
+    top:-4rem;
+    right: 0;
+    z-index:-1;
+    object-fit: cover;
+    height: 100vh;
+    */
+
+
+.introContent {
+    height: 100vh;
+    width:100;
+    padding: 1rem;
+    font-size: 2rem;
+    font-weight:400;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: right;
+    
+  
+    
+   
+                                                                                                         
+}
+/* intro.css */
+
+.intro {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 4rem;
+    min-width: 30;
+
+    
+  }
+  
+  
+  .iconContent {
+    display: flex;
+    flex-direction: column;
+    max-width: 20;
+   
+  }
+  
+  .iconItem {
+    margin-bottom: 2rem;
+    font-size: 3rem;
+
+  }
+  
+  .introContent {
+    text-align: center;
+   
+
+  }
+  
+  .btn {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 0.5rem 1rem;
+    cursor: pointer;
+ 
+    font-size: 1.25rem;
+    display: inline-block;
+  background-color: var(--first-color);
+  color: #ffff;
+  padding: 1rem;
+  border-radius: 0.5rem;
+  display: inline-flex;
+  align-items: center;
+  transition: 0.3s;
+}
+
+   
+  
+  
+  .btn:hover {
+    background-color: #0056b3;
+  }
+  
+
+
+
