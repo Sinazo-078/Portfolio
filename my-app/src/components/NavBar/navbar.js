@@ -46,16 +46,8 @@ const Navbar = () => {
           duration={500}
           className="desktopMenuListItem"
         >
-          Skills
-        </Link>
-        <Link
-          to="contact"
-          spy={true}
-          smooth={true}
-          offset={-70}
-          duration={500}
-          className="desktopMenuListItem"
-        >
+       
+        
           Contact
         </Link>
       </div>
