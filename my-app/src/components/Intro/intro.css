@@ -6,7 +6,9 @@
   padding: 0;
   box-sizing: border-box;
 }
-
+body {
+  background: rgba(129, 165, 206, 0.705);
+}
 /* Global styles */
 :root {
   --small-font-size: 1rem;
@@ -18,31 +20,48 @@
   align-items: center;
   justify-content: space-around;
   padding: 4rem;
-  max-width: 50rem;
+  width: 100%;
   margin-top: 0.05rem;
   font-size: var(--big-font-size);
-  margin-left: 40vh;
+  margin-left: 0vh;
+  height: 0vh;
 }
 
 .introContent {
-  height: 57vh;
+  height: 37vh;
   width: 70vh;
-  padding: 6rem;
+  padding: 3rem;
   font-size: 2rem;
   font-weight: 300;
   display: flex;
   flex-direction: column;
   justify-content: center;
   text-align: left;
-  margin-right: 17rem;
+  margin-bottom: 20vh;
+  align-items: flex-start; /* Align items to the start of the column */
+  margin-right: 80vh; /* Remove the right margin */
 }
+.introText {
+  text-align: left;
+  height: 57vh;
+  width: 70vh;
+  margin-left: 50vh;
+}
+.introSubtitle {
+  text-align: left;
+  height: 57vh;
+  width: 70vh;
+  margin-left: 50vh;
 
+}
 .imgContainer {
   display: flex;
   justify-content: flex-end;
   align-items: center;
   flex: 1; /* Take remaining space */
   border-radius: 38px;
+  margin-right: 150vh;
+  margin-bottom: 24vh;
 }
 
 .imgContainer img {
@@ -51,17 +70,22 @@
   
 }
 
+ 
+
 .iconContent {
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
+  align-items: flex-start;
+  margin-top: 2rem;
+  margin-bottom: 1rem; /* Add margin at the bottom of the iconContent */
+  margin-left: 53vh;
 }
 
 .iconItem {
-  margin-bottom: 2rem;
+  margin-bottom: 1rem;
+  margin-right: 2rem; /* Add margin between icons */
   font-size: 3rem;
-  margin-right: 15vh;
 }
-
 .btn {
   background-color: #007bff;
   color: white;
@@ -70,6 +94,7 @@
   cursor: pointer;
   border-radius: 0.5rem;
   transition: 0.3s;
+  margin-left: 55vh;
 }
 
 .btn:hover {

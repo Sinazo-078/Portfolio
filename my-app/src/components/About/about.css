@@ -8,6 +8,10 @@
     justify-content: center;
     text-align: center;
     margin: 0 auto;
+    height: 100vh;    
+}
+.aboutt{
+    background: rgba(95, 116, 139, 0.705);
 }
 
 .aboutTitle {

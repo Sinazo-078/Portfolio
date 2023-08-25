@@ -6,8 +6,22 @@ import Sihentshe from '../../assets/Sinazos.png';
 
 const Intro = () => {
     return (
-        <div className="intro">
-          <div className="iconContent">
+
+        <div className="body">
+                    <section className="intro" id="home">
+            <div className="introContent">
+                <span className="introText">
+                <h5>Hi I'm Sinazo Sihentshe</h5>
+                </span>
+                <br />
+                <span className="introSubtitle">SOFTWARE DEVELOPER</span>
+                <br />
+                <br />
+                <Link to="contact" spy={true} smooth={true} offset={-70} duration={500}>
+                <button className="btn">Contact me</button>
+                </Link>
+
+                <div className="iconContent">
                 <h3 className="iconItem">
                     <FaGithub />
                 </h3>
@@ -17,23 +31,11 @@ const Intro = () => {
                 <h3 className="iconItem">
                     <FaFacebook color='blue'/>
                 </h3>
-            </div>
-            <div className="introContent">
-            
-                <span className="introText">
-                    <h5 style={{ textAlign: 'left', display: 'inline' }}>Hi I'm Sinazo Sihentshe</h5>
-                </span>
-                <br />
-                <span className="introSubtitle" style={{ textAlign: 'left', display: 'inline' }}>SOFTWARE DEVELOPER</span>
-                <br />
-                <br />
-                <Link to="contact" spy={true} smooth={true} offset={-70} duration={500}>
-                    <button className="btn">Contact me</button>
-                </Link>
+                </div>
             </div>
             <img src={Sihentshe} alt="logo" className="imgContainer" />
-            
-        </div>
+            </section>
+            </div>
     );
 };
 

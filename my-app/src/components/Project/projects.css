@@ -1,0 +1,124 @@
+#project {
+    width: 100%;
+    background: rgba(129, 165, 206, 0.705);
+    height: 100vh;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+}
+
+
+.workDesc {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 4rem 0 2rem 0;
+}
+
+.worktittle h1 {
+    font-size: 2.4rem;
+    text-align: center;
+}
+
+@media screen and (max-width: 640px) {
+    .worktittle h2 {
+        font-size: 2.4rem;
+    }
+    .workDesc p {
+        font-size: 1.4rem;
+        text-align: center;
+    }
+}
+
+.project-container {
+    display:grid;
+    max-width: px;
+    margin: auto;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 40px;
+    padding: 50px;
+}
+
+.project-card {
+    background:rgb(50, 50, 50);
+    padding: 1.2rem 1rem;
+    border-radius: 38px;
+  
+}
+
+@media screen and (max-width: 740px) {
+    .project-container {
+        max-width: 90%;
+        margin: auto;
+        grid-template-columns: 1fr;
+    }
+}
+
+.project-card img {
+    width: 100%;
+    border-radius: 38px;
+}
+
+.project-title {
+    color: white;
+    padding: 1rem;
+}
+
+.project-details p {
+    padding-bottom: 1rem;
+    font-size: 1.1rem;
+    text-align: justify;
+}
+
+.project-btn {
+    display: flex;
+    justify-content: space-between;
+    padding: 0.5rem 0;
+}
+
+@media screen and (max-width: 740px) {
+    .project-container {
+        max-width: 90%;
+        margin: auto;
+        grid-template-columns: 1fr;
+    }
+}
+/* For the custom-button */
+.custom-button {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 0.5rem 1rem;
+    cursor: pointer;
+    border-radius: 0.5rem;
+    transition: 0.3s;
+  }
+  
+  .custom-button a {
+    color: white;
+    text-decoration: none;
+  }
+  
+  .custom-button:hover {
+    background-color: #0056b3;
+  }
+  
+  /* For the .btn class */
+  .btn {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 0.5rem 1rem;
+    cursor: pointer;
+    border-radius: 0.5rem;
+    transition: 0.3s;
+  }
+  
+  .btn:hover {
+    background-color: #0056b3;
+  }
+  
+

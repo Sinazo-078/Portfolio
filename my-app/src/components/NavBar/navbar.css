@@ -1,33 +1,51 @@
-.navbar {
-    background: rgb(30,30,30);
+/* Reset default margin and padding for all elements */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  /* Navbar */
+  .navbar {
+    background: rgb(50, 50, 50);
     height: 5rem;
-    width:100vw;
-    max-width: 85rem;
-    margin:0 auto;
-    padding:1rem 2rem ;
-    display:flex;
-    align-items:center;
-    justify-content:space-between;
+    max-width: 100%;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
     position: sticky;
-    top:0;
-    z-index:3;
-
-
-    
-}
-.logo {
+    top: 0;
+    z-index: 3;
+    padding: 0 2rem; /* Add horizontal padding */
+  }
+  
+  .logo {
     object-fit: cover;
-    height: 6rem;
-    width:6rem ;
-
-}
-.desktopMenuListItem{
-    margin:2rem;
-    cursor:pointer;
-
-}
-.desktopMenuListItem:hover {
-    color:yellow;
-    padding-bottom: o.5rem;
-
-}
+    height: 4rem; /* Adjust the logo height */
+    width: auto; /* Let the width adjust proportionally */
+  }
+  
+  .desktopMenuListItem {
+    margin: 0 1.5rem; /* Adjust horizontal margin */
+    cursor: pointer;
+    color: white; /* Set default color */
+    transition: color 0.3s; /* Add color transition */
+  }
+  
+  .desktopMenuListItem:hover {
+    color: yellow;
+    padding-bottom: 0.5rem;
+  }
+  
+  /* Media Query */
+  @media screen and (max-width: 1040px) {
+    .navbar {
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      width: 100%;
+      height: 100vh;
+    }
+  }
+  
