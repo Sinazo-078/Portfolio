@@ -6,6 +6,7 @@ import Design from '../images/Design.png';
 import Frontend from '../images/Frontend.png';
 import Backend from '../images/Backend.jpg';
 
+
 const About = () => {
   return (
     <div className="aboutt">
@@ -43,9 +44,7 @@ const About = () => {
         </div>
       </section>
     </div>
-  );
-    }
+       );
+     }
 
-
-    
-export default About;
+     export default About;

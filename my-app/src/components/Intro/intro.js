@@ -17,7 +17,7 @@ const Intro = () => {
                 <span className="introSubtitle">SOFTWARE DEVELOPER</span>
                 <br />
                 <br />
-                <Link to="contact" spy={true} smooth={true} offset={-70} duration={500}>
+                <Link activeClass="active"to="contact" spy={true} smooth={true} offset={-70} duration={500}>
                 <button className="btn">Contact me</button>
                 </Link>
 

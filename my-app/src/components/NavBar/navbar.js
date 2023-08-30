@@ -2,7 +2,7 @@ import React from 'react';
 import './navbar.css';
 import logo from '../../assets/result.png';
 import { Link } from 'react-scroll'; // Corrected import statement
-
+import menu from '../../components/images/menu row.png';
 const Navbar = () => {
   return (
     <nav className="navbar">
@@ -38,8 +38,8 @@ const Navbar = () => {
         >
           Project
         </Link>
-        <Link
-          to="skills"
+        <Link activeClass="active"
+          to="contact"
           spy={true}
           smooth={true}
           offset={-70}
@@ -50,6 +50,15 @@ const Navbar = () => {
         
           Contact
         </Link>
+        <Link 
+          to="Skills"
+          spy={true}
+          smooth={true}
+          offset={-70}
+          duration={500}
+          className="desktopMenuListItem">
+
+          </Link>
       </div>
     </nav>
   );

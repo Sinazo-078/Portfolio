@@ -23,14 +23,14 @@ body {
   width: 100%;
   margin-top: 0.05rem;
   font-size: var(--big-font-size);
-  margin-left: 0vh;
-  height: 0vh;
+  
+
 }
 
 .introContent {
   height: 37vh;
   width: 70vh;
-  padding: 3rem;
+  padding: rem;
   font-size: 2rem;
   font-weight: 300;
   display: flex;
@@ -39,7 +39,7 @@ body {
   text-align: left;
   margin-bottom: 20vh;
   align-items: flex-start; /* Align items to the start of the column */
-  margin-right: 80vh; /* Remove the right margin */
+  margin-right: 19rem; /* Remove the right margin */
 }
 .introText {
   text-align: left;

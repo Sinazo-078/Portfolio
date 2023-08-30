@@ -7,8 +7,8 @@ import finacial from '../images/finacial .png';
 const Project = () => {
   return (
     <section id="project">
-       <div className="worktittle">
-        <h1>Project</h1>
+       <div className="worktittle"><br></br><br></br><br></br><br></br>
+        <h1>Projects</h1>
       </div>
       <div className='worksImgs'>
         {/* You can add additional content or images here */}
