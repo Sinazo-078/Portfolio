@@ -27,7 +27,7 @@ const Intro = () => {
                 </h3>
                 <h3 className="iconItem">
                     <FaLinkedin />
-                </h3>
+                </h3> 
                 <h3 className="iconItem">
                     <FaFacebook color='blue'/>
                 </h3>

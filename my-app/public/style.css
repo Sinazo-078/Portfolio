@@ -6,9 +6,13 @@
     background:transparent ;
 }
 body{
-    background:black;
+    background: rgba(129, 165, 206, 0.705);
     color:aliceblue;
     overflow:hidden;
-    overflow-y: scroll                        ;
+    overflow-y: scroll; 
+    overflow-anchor: none;
+    
+                          
 
 } 
+

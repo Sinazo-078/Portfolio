@@ -2,13 +2,15 @@ import React from 'react';
 import './navbar.css';
 import logo from '../../assets/result.png';
 import { Link } from 'react-scroll'; // Corrected import statement
-import menu from '../../components/images/menu row.png';
+
 const Navbar = () => {
+  
   return (
     <nav className="navbar">
       <img src={logo} alt="logo" className="logo" />
       <div className="desktopMenu">
-        <Link
+       
+       <Link
           to="home"
           spy={true}
           smooth={true}
@@ -59,8 +61,11 @@ const Navbar = () => {
           className="desktopMenuListItem">
 
           </Link>
-      </div>
-    </nav>
+  </div>
+  </nav>
+          
+    
+    
   );
 };
 
